@@ -5,7 +5,6 @@ function loadCommands(client) {
     const table = new ascii().setHeading("Commands", "Status")
 
     let commandArray = [];
-    let developerArray = [];
 
     const commandsFolder = fs.readdirSync("./Source/Commands");
 
@@ -20,8 +19,7 @@ function loadCommands(client) {
             const properties = { folder, ...commandFile };
             client.commands.set(commandFile.data.name, properties);
 
-            if(commandFile.developer) developerArray.push(commandFile.data.toJSON())
-            else commandArray.push(commandFile.data.toJSON());
+            commandArray.push(commandFile.data.toJSON());
 
             table.addRow(file, "Loaded")
             continue;
@@ -29,9 +27,6 @@ function loadCommands(client) {
     }
 
     client.application.commands.set(commandArray);
-
-    const developerGuild = client.guilds.cache.get('1026903220645285908')
-    developerGuild.commands.set(developerArray);
 
     return console.log(chalk.magentaBright(table.toString()))
 
