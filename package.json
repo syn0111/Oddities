@@ -1,5 +1,5 @@
 {
-  "name": "oddities-src",
+  "name": "oddities",
   "version": "1.0.0",
   "description": "",
   "main": "./Source/bot.js",
