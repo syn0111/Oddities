@@ -1,0 +1,23 @@
+{
+  "name": "syn-workshop-src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Source/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "captcha-canvas": "^3.2.1",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.9.0",
+    "openai": "^3.2.1",
+    "random-puppy": "^1.1.0"
+  }
+}
