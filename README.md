@@ -1,7 +1,7 @@
 # Oddities
 Oddities is a multi-functional bot that greatly simplifies server moderation and needs. It is open sourced (found here) and I will try to update it as much as I can.
 
-If wanting to invite the original one/hosted one then do so by clicking the link below:
+If wanting to invite the original one/hosted one then do so by clicking the link:
 https://discord.com/api/oauth2/authorize?client_id=1065031090835828746&permissions=1496125090999&scope=bot%20applications.commands
 
 ## Side note(s)
